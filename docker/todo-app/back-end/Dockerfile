@@ -9,4 +9,4 @@ ADD node_modules.tar.gz ./
 COPY package-lock.json ./
 COPY package.json ./
 
-ENTRYPOINT [ "npm" "start" ]
+ENTRYPOINT [ "npm", "start" ]
